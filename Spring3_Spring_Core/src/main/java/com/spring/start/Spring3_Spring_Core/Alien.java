@@ -3,20 +3,23 @@ package com.spring.start.Spring3_Spring_Core;
 public class Alien {
 
 	int age;
-	Laptop laptop;
+	Computer computer;
 
 	public Alien(int age) {
 		super();
 		this.age = age;
 	}
 
-	public Laptop getLaptop() {
-		return laptop;
+	
+	public Computer getComputer() {
+		return computer;
 	}
 
-	public void setLaptop(Laptop laptop) {
-		this.laptop = laptop;
+
+	public void setComputer(Computer computer) {
+		this.computer = computer;
 	}
+
 
 	public int getAge() {
 		return age;
