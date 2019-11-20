@@ -14,7 +14,9 @@ public class App
     			new ClassPathXmlApplicationContext("/com/spring/start/Spring3_Spring_Core/Spring.xml");
     	
     	
-    	//Alien obj=(Alien)factory.getBean("alien");
-    	//obj.code();
+		Alien obj=(Alien)factory.getBean("alien");
+    	obj.code();
+    	System.out.println(obj.age);
+    	
     }
 }
