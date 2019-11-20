@@ -5,6 +5,11 @@ public class Alien {
 	int age;
 	Laptop laptop;
 
+	public Alien(int age) {
+		super();
+		this.age = age;
+	}
+
 	public Laptop getLaptop() {
 		return laptop;
 	}
