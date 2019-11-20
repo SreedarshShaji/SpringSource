@@ -16,6 +16,7 @@ public class App
     	
 		Alien obj=(Alien)factory.getBean("alien");
     	obj.code();
+    	obj.laptop.compile();
     	System.out.println(obj.age);
     	
     }

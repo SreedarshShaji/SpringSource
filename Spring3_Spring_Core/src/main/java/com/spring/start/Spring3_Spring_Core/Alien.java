@@ -1,9 +1,19 @@
 package com.spring.start.Spring3_Spring_Core;
 
 public class Alien {
-	
+
 	int age;
-	 	public int getAge() {
+	Laptop laptop;
+
+	public Laptop getLaptop() {
+		return laptop;
+	}
+
+	public void setLaptop(Laptop laptop) {
+		this.laptop = laptop;
+	}
+
+	public int getAge() {
 		return age;
 	}
 
@@ -12,12 +22,11 @@ public class Alien {
 		this.age = age;
 	}
 
-		public Alien() {
+	public Alien() {
 		System.out.println("This is a constructor");
 	}
 
-		public void code()
-	 	{
-	 		System.out.println("Hey there, I am coding");
-	 	}
+	public void code() {
+		System.out.println("Hey there, I am coding");
+	}
 }
